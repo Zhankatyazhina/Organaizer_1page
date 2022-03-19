@@ -1,0 +1,164 @@
+* , *::after , *::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+/* html{
+    height: 100%;
+}
+
+.main_page{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+/* Header */
+
+.header{
+    height: 73px;
+    border-bottom: 1px solid #E5E9F2;
+    display: flex;
+    align-items: center;
+
+}
+
+.header_container{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.header_appstore{
+    margin-left: auto;
+}
+
+.header_logo{
+    margin-right: 40px;
+    margin-top: 3px;
+}
+
+.nav_link{
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    margin-right: 32px;
+}
+
+.nav_link:last-child{
+    margin-right: 0;
+}
+
+.appstore{
+    margin-left: 12px;
+}
+
+.appstore:first-child{
+    margin-left: 0;
+}
+
+
+
+/* End of header */
+
+
+
+/* Main content */
+
+.main_container{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.main_content{
+    width: 540px;
+    margin-left: 38px;
+}
+
+.main_title{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 1.36;
+    color: #18191F;
+    margin-bottom: 17px;
+}
+
+.main_p p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+    color: #18191F;
+    margin-bottom: 32px;
+
+}
+
+.button{
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 284px;
+    height: 62px;
+    background: #8C30F5;
+    border-radius: 8px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: white;
+}
+
+
+
+/* End of main content */
+
+
+
+/* Footer */
+
+.footer{
+    height: 72px;
+    background: #0B0D17;
+    display: flex;
+    align-items: center;
+}
+
+.footer_container{
+    width: 1110px;
+    margin: 0 auto;
+    color: #D9DBE1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_link{
+    margin-right: 16px;
+}
+
+.footer_link:last-child{
+    margin-left: 0;
+}
+
+.footer_left{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer_link:hover{
+    
+}
